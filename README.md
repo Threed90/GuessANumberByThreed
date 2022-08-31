@@ -6,7 +6,7 @@
 
 ---
 
-<img src="" alt="game icon" width="700" height="500">
+<img src="https://github.com/Threed90/GuessANumberByThreed/blob/main/RepoPics/Icon.png" alt="game icon" width="700" height="500">
 
 This is a simple console game "Guess A Number". It is single play game where you have to guess a number.
 
@@ -24,8 +24,9 @@ The rules of the game are as follows:
 
 # Input and Output
 
-<img src="" alt="input/output img" width="700" height="300">
+<img src="https://github.com/Threed90/GuessANumberByThreed/blob/main/RepoPics/InputOutput.png" alt="input/output img" width="700" height="300">
 
+<img src="https://github.com/Threed90/GuessANumberByThreed/blob/main/RepoPics/InputOutput2.png" alt="input/output img" width="700" height="300">
 # Demo
 
 You can try the game, test your prediction skills and enjoy it in web browser [here](https://replit.com/@DimitrDimitrov1/Guess-A-Number?v=1).
