@@ -1,9 +1,4 @@
 ﻿using GuessANumber.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GuessANumber.Models
 {
@@ -106,7 +101,22 @@ namespace GuessANumber.Models
                 if (this.Score <= 0)
                 {
                     Console.WriteLine("Game over! You reach the max number of tries.");
-                    this.Stop();
+
+                    Console.WriteLine();
+
+                    Console.Write("Press [y] to play again or any key to stop the game: ");
+                    var key = Console.ReadKey();
+
+                    Console.WriteLine();
+
+                    if (key.KeyChar == 'y')
+                    {
+                        this.Restart();
+                    }
+                    else
+                    {
+                        this.Stop();
+                    }
                 }
             }
 
